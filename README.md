@@ -10,6 +10,24 @@ Utiliza un objeto Random para seleccionar aleatoriamente vocales del conjunto {'
 Simultáneamente, actualiza un arreglo de frecuencias frecuencia para contar cuántas veces aparece cada vocal mediante un bloque switch.
 Finalmente, muestra en consola tanto la tabla de vocales generadas como la frecuencia de cada vocal, permitiendo observar la distribución de las vocales seleccionadas de forma aleatoria.
 
+*Comentario de Juanma*
+
+Cambios realizados:
+Renombramiento de variables:
+
+frecuencia → vowelFrequency para claridad.
+tabla → vowelTable para seguir consistencia con el idioma inglés.
+Refactorización del flujo:
+
+Se movió la definición de las vocales (vowels) fuera del bucle para evitar redefinirlas en cada iteración.
+Agregué una validación con excepción en el default del switch para manejar posibles errores.
+Comentarios en el código:
+
+Documenté el propósito principal del método y su funcionalidad general.
+Optimización menor:
+
+Evité reuso innecesario de nombres y mejoré la estructura para facilitar su comprensión.
+
 Ejercicio3:
 Este programa cuenta cuantas veces aparece una palabra específica dentro de una frase ingresada por el usuario. 
 Primero, solicite al usuario que introduzca una frase y luego una palabra. 
