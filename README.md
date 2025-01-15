@@ -29,3 +29,8 @@ Comienza con un arreglo predefinido de enteros y muestra su contenido al usuario
 Luego, solicite un índice para eliminar el elemento correspondiente, moviendo los elementos subsiguientes hacia la izquierda para llenar el hueco, y reduzca el tamaño lógico del arreglo. 
 Si el usuario ingresa un índice inválido o fuera del rango, se notifica el error. 
 El proceso continúa hasta que el usuario ingresa -1para salir o no quedan elementos en el arreglo.
+
+Mejoras realizadas:
+Modularización: Extraí la lógica de conteo de palabras en un método independiente contarPalabra para mejorar la reutilización y la claridad.
+Legibilidad: El código principal ahora es más conciso, ya que delega la tarea de conteo al método dedicado.
+Reusabilidad: El método contarPalabra puede ser reutilizado en otros contextos o programas sin modificaciones adicionales.
